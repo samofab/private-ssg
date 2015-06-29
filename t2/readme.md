@@ -1,4 +1,4 @@
 
-# Blog
+# Playing with wintersmith
 
-The default [wintersmith](https://github.com/jnordberg/wintersmith) template
+Using nunchucks

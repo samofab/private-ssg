@@ -1,21 +1,17 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "The Wintersmith's blog",
-    "owner": "Someone",
+    "name": "Wintersmith test",
+    "owner": "samofab",
     "description": "Ramblings of an immor(t)al demigod"
   },
   "plugins": [
-    "./plugins/paginator.coffee",
 	"wintersmith-nunjucks"
   ],
   "require": {
     "moment": "moment",
     "_": "underscore",
     "typogr": "typogr"
-  },
-  "jade": {
-    "pretty": true
   },
   "markdown": {
     "smartLists": true,

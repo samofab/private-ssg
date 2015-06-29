@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block canonical %}{{ url }}{{ page.url }}{% endblock %}
+{% block title %}{{ page.title }}{% endblock %}
+{% block meta %}
+		{{ super() }}
+		{% if page.metadata.keywords %}<meta name="keywords" content="{{ page.metadata.keywords }}">{% endif %}
+{% endblock %}
+{% block content %}
+		<div class="row">
+			<div class="title">{{ page.metadata.title }}</div>
+			{{ page.html }}
+		</div>
+{% endblock %}
