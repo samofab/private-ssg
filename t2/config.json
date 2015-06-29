@@ -6,7 +6,8 @@
     "description": "Ramblings of an immor(t)al demigod"
   },
   "plugins": [
-	"wintersmith-nunjucks"
+	"wintersmith-nunjucks",
+	"wintersmith-livereload"
   ],
   "require": {
     "moment": "moment",
