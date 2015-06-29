@@ -21,13 +21,9 @@
 				<div class="small-4 columns align-left">
 					<nav class="leftNav">
 						<ul class="inline-list">
-							<li><a href="/about/">About</a></li>
-							<li><a href="/articles/">Blog</a></li>
-							
-							{% for item in navigation %}
-								<li><a href="{{ item.href }}">{{ item.caption }}</a></li>
+							{% for item in nav %}
+								<li><a href="{{ item.url }}">{{ item.name }}</a></li>
 							{% endfor %}
-							
 						</ul>
 					</nav>
 				</div>

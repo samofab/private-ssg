@@ -3,7 +3,27 @@
     "url": "http://localhost:8080",
     "name": "Wintersmith test",
     "owner": "samofab",
-    "description": "Ramblings of an immor(t)al demigod"
+    "description": "Ramblings of an immor(t)al demigod",
+	"nav" : [
+      {
+        "name": "Home",
+        "cssClass": "home",
+        "description": "Home Page",
+        "url": "/"
+      },
+      {
+        "name": "Blog",
+        "cssClass": "blog",
+        "description": "Blog",
+        "url": "/blog"
+      },
+      {
+        "name": "About",
+        "cssClass": "about",
+        "description": "About ",
+        "url": "/about"
+      }
+    ] 
   },
   "plugins": [
 	"wintersmith-nunjucks",
