@@ -1,7 +1,6 @@
 ---
-title: Code and stuff!
-author: the-wintersmith
-date: 2012-10-01 15:00
+title: Mijav
+date: 2014-01-01 15:00
 template: article.jade
 ---
 
