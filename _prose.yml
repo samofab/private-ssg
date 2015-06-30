@@ -1,5 +1,5 @@
 prose:
-  rooturl: "t2\contents"
+  rooturl: "t2\\contents"
   siteurl: "http://ssg1.azurewebsites.net"
   media: "images"
   metadata:
