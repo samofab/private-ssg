@@ -1,9 +1,8 @@
 prose:
-  rooturl: "t2\\contents"
   siteurl: "http://ssg1.azurewebsites.net"
   media: "images"
   metadata:
-    _posts:
+    t2/contents/articles:
       - name: "published"
         field:
           label: "Published"
