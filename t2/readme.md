@@ -7,7 +7,7 @@ Using:
 - http://prose.io
 ```
 $ npm install wintersmith -g
-$ npm install -g wintersmith-nunjucks
+$ npm install -g wintersmith-nunjucks 
 $ wintersmith new <path>
 $ cd <path>
 $ wintersmith preview
