@@ -1,4 +1,4 @@
-## How to report a bug - concise version
+## How to report a website bug - concise version
 0. Indicate clearly to which *project* the bug belongs
 1. If you have multiple issues, please file separate bug reports
 2. Make sure that you're watching the latest version of website/product. Try "Ctrl+F5"
@@ -6,7 +6,7 @@
 4. Provide precise steps to *reproduce* the bug, *expected* results and *actual* results 
 5. Enter a *clear unique* title; check if the bug has already been reported
 ## The long version
-### Why good Bug report
+### Why good bug report
 If your bug report is effective, chances are higher that it will get fixed. So fixing a bug depends on how effectively you report it. A bug report should contain a lot of information, the more you supply, the better.
 ### When to send a bug report
 Short answer, *always*. Longer answer, when:
@@ -32,6 +32,12 @@ A good title should quickly and uniquely identify a bug report. It should explai
 - Bad: "Website doesn't work"
 
 - Good: "Error 402: Access denied when clicking ‘Send Email’"
+
+- Instead of: Sorting is not working properly.
+- Try: Sorting is happening in reverse order.
+
+- Instead of: Issues with GUI on navigation bar.
+- Try: Navigation bar is wrapping to a second line.
 ### Hints and tips
 - *Be specific*: Use the exact same words as the application. If you see something, write it as is. If you click something, write it’s exact name.
 - *Don’t get personal*: You are reporting a bug, not discussing the developer’s nature or the quality of the software. Bug reports that contain offensive or emotional language will be ignored. 
