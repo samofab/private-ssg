@@ -6,8 +6,9 @@ Using:
 - wintersmith-livereload
 - http://prose.io
 ```
-$ npm install wintersmith -g
+$ npm install -g wintersmith
 $ npm install -g wintersmith-nunjucks 
+$ npm install -g wintersmith-livereload 
 $ wintersmith new <path>
 $ cd <path>
 $ wintersmith preview
